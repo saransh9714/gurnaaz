@@ -43,13 +43,14 @@
     }
 
     .card {
-      max-width: 80%;
+      max-width: 90%;
       margin: 100px auto;
-      padding: 30px;
+      padding: 20px;
       background: white;
       border-radius: 16px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.2);
       display: flex;
+      flex-direction: column;
       align-items: center;
       gap: 20px;
       position: relative;
@@ -57,24 +58,24 @@
     }
 
     .card h1 {
-      font-size: 28px;
+      font-size: 24px;
       color: #d6336c;
-      width: 100%;
+      text-align: center;
     }
 
     .card .text {
-      flex: 1;
-      text-align: left;
+      text-align: center;
     }
 
     .card img {
-      width: 180px;
+      width: 70%;
+      max-width: 250px;
       border-radius: 12px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     }
 
     .card p {
-      font-size: 18px;
+      font-size: 16px;
       color: #333;
     }
 
@@ -97,6 +98,7 @@
       display: none;
       margin-top: 20px;
       color: #ff4081;
+      text-align: center;
     }
   </style>
 </head>
@@ -119,7 +121,7 @@
   <div class="card">
     <div class="text">
       <h1>Happpyy Birthday Gurnaazzz 🙄</h1>
-      <p>I changed to gurnaaz okay, pehle stranger hee tha. So, Happpy Birthday, I know we’ve known each other since the legendary hour of <strong>yesterday at 3 PM</strong>, full of chaos, and all, but yeah i thinnk you're a great person, wishing you lots of success ahead and yeah.<br/><br/>You're awesome, and this little surprise is just my way of saying: you're unforgettable (even if I just met you).</p>
+      <p>I changed to gurnaaz okay, pehle stranger hee tha. So, Happpy Birthday, I know we’ve known each other since the legendary hour of <strong>yesterday at 3 PM</strong>, full of chaos, and all, but yeah i thinnk you're a great person, wishing you lots of success ahead and yeah.<br/><br/>You're awesome, and this little surprise is just my way of saying: you're unforgettable (even if I just met you)</p>
       <button onclick="revealSurprise()">Ta-Da</button>
       <div id="surprise" class="surprise">
         <h2 style="color: #d6336c;">"Birthday Objection Overruled"<br/>Prosecution rests—but the party won’t.<br/>Blame your naaz for this life sentence of fun.</h2>
